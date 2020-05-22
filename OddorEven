@@ -1,0 +1,7 @@
+# Odd or Even
+inp = input('Pick a number')
+usf = int(inp) % 2
+if usf > 0:
+    print("You picked an odd number.")
+else: 
+    print("You picked an even number")
