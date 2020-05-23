@@ -1,0 +1,14 @@
+# Breakfast, Lunch, Dinner
+breakfast = ["Maggi", "Donuts", "cherry"]
+lunch = ["dal", "rice"]
+
+inp = input('What food should I make?')
+# upinp = inp.upper()
+
+if inp in breakfast:
+  print("You selected Breakfast item",inp)
+if inp in lunch:
+  print("You selected Lunch item")
+
+print(len(inp))
+  
