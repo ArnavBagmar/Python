@@ -1,0 +1,4 @@
+a_string= 'My Name Is Vimal'
+first_word = a_string.split()[1]
+
+print(first_word)
