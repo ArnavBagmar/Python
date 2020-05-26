@@ -1,0 +1,6 @@
+inp = input('Enter a sentence :')
+inp = inp.lower()
+if (inp.find('orlando')!= -1):
+  print("Contains the word 'Orlando'")
+else:
+  print('Could not find the word')
