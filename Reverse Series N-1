@@ -1,0 +1,6 @@
+start = 1
+inp = input('Pick an end value:')
+while start <= int(inp):
+  print(inp)
+  inp = int(inp) - 1
+print('End of Program')
