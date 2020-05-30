@@ -1,0 +1,24 @@
+def oddeven():
+    usf = int(inp) % 2
+    if usf > 0:
+        print("It is an odd number.")
+    else: 
+        print("It is an even number")
+def series():
+    start = 1
+    global inp
+    while start <= int(inp):
+        print(start)
+        start = start + 1
+    print('End of Program')
+def revseries():
+    start = 1
+    global inp
+    while start <= int(inp):
+        print(inp)
+        inp = int(inp) - 1
+    print('End of Program')
+inp = input('Pick a number:')
+oddeven()
+series()
+revseries()
