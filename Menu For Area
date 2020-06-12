@@ -1,0 +1,39 @@
+# Arnav Bagmar
+# Perimeter and Area
+# 6/11/2020
+from os import system, name
+
+def rectangle():
+    len = int(input("Give length size:"))
+    wid = int(input('Give width size:'))
+    area = (len * wid)
+    # area = str(area)
+    print("The area of the rectangle is ", area)
+    per = (2 * (len + wid))
+    print("The perimeter of the rectangle is ", per)
+
+
+def circle():
+    r = int(input("Give a radius of a circle:"))
+    area = (3.14 * r * r)
+    circum = (2 * 3.14 * r)
+    print("The area of the circle is ", area)
+    print("The circumference of the circle is ", circum)
+
+
+def menu():
+    print("Hello, 1.Rectangle 2.Circle 3.Exit")
+    choice = input()
+
+    if choice == "1":
+        rectangle()
+
+    if choice == "2":
+        circle()
+
+    if choice == "3": 
+        exit(0)
+
+while True:
+    
+    menu()
