@@ -1,0 +1,9 @@
+# Arnav Bagmar
+# Perimeter and Area
+#6/11/2020
+len = int(input("Give length size:"))
+wid = int(input('Give width size:'))
+area = (len*wid)
+print(area)
+per = (2*(len+wid))
+print(per)
