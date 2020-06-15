@@ -1,0 +1,47 @@
+# Arnav Bagmar
+# Math Module
+# 6/14/2020
+pi = 3.14
+# Cube Volume and Surface Area
+def cube():
+    print('You have selected to find the surface area and the volume of a cube')
+    cubeLength = float(input('Please enter the length of the cube '))
+    sa = 6*pow(cubeLength,2)
+    print('The surface area of the cube is ' + str(sa))
+    v = pow(cubeLength,3)
+    print('The volume of the cube is ' + str(v))
+
+# Cylinder Volume and Surface Area
+def cylinder():
+    print('You have selected to find the surface area and volume of a cylinder')
+    radius = float(input('Please enter the radius of the cylinder '))
+    height = float(input('Please enter the height of the cylinder '))
+    surfaceArea = 2*pi*pow(radius,2)
+    print('The surface area of the cylinder is ' +str(surfaceArea))
+    volume = pi*pow(radius, 2)*height
+    print('The volume of the cylinder is ' +str(volume))
+
+#Menu
+def menu():
+    print('Please select an option: \n 1. Cube \n 2. Cylinder \n 3. Exit')
+    choice = input()
+
+    if choice == "1":
+        cube()
+
+    if choice == "2":
+        cylinder()
+
+    if choice == '3':
+        exit(0)
+
+
+#Output
+name = input("Hi, what is your name? ")
+print('Hello ' + name + ', I am Python')
+while True:
+    menu()
+
+
+
+
