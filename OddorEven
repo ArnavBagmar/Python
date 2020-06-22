@@ -5,3 +5,4 @@ if usf > 0:
     print("You picked an odd number.")
 else: 
     print("You picked an even number")
+print('Hi')
